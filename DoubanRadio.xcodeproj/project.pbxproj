@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85362C2019A71DC6002CFE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C1F19A71DC6002CFE90 /* Foundation.framework */; };
+		85362C2219A71DC6002CFE90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2119A71DC6002CFE90 /* CoreGraphics.framework */; };
+		85362C2419A71DC6002CFE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2319A71DC6002CFE90 /* UIKit.framework */; };
+		85362C2A19A71DC6002CFE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85362C2819A71DC6002CFE90 /* InfoPlist.strings */; };
+		85362C2C19A71DC6002CFE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C2B19A71DC6002CFE90 /* main.m */; };
+		85362C3019A71DC6002CFE90 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */; };
+		85362C3319A71DC6002CFE90 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */; };
+		85362C3619A71DC6002CFE90 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */; };
+		85362C3B19A71DC6002CFE90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3A19A71DC6002CFE90 /* Images.xcassets */; };
+		85362C4219A71DC6002CFE90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C4119A71DC6002CFE90 /* XCTest.framework */; };
+		85362C4319A71DC6002CFE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C1F19A71DC6002CFE90 /* Foundation.framework */; };
+		85362C4419A71DC6002CFE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2319A71DC6002CFE90 /* UIKit.framework */; };
+		85362C4C19A71DC6002CFE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85362C4A19A71DC6002CFE90 /* InfoPlist.strings */; };
+		85362C4E19A71DC6002CFE90 /* DoubanRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C4D19A71DC6002CFE90 /* DoubanRadioTests.m */; };
+		85362C5C19A71E11002CFE90 /* DRRadioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C5B19A71E11002CFE90 /* DRRadioManager.m */; };
+		85362C6019A71E39002CFE90 /* DRMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C5F19A71E39002CFE90 /* DRMusic.m */; };
+		85362C6319A71E54002CFE90 /* DRChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C6219A71E54002CFE90 /* DRChannel.m */; };
+		85362C6619A71FE5002CFE90 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C6519A71FE5002CFE90 /* DRViewController.m */; };
+		8549077E19A73617008FA9D6 /* DRChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549077C19A73617008FA9D6 /* DRChannelCell.m */; };
+		8549077F19A73617008FA9D6 /* DRChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8549077D19A73617008FA9D6 /* DRChannelCell.xib */; };
+		8549078419A758D0008FA9D6 /* UITableView+Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549078319A758D0008FA9D6 /* UITableView+Wave.m */; };
+		85A240F919AEC2F700498A13 /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A240F819AEC2F700498A13 /* PaperButton.m */; };
+		85A2F4A119AD8484008188CA /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A019AD8484008188CA /* YRSideViewController.m */; };
+		85A2F4A419AD8536008188CA /* DRChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A319AD8536008188CA /* DRChannelListViewController.m */; };
+		85A2F4A719ADAEFF008188CA /* ADTickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */; };
+		85A80D3119A882C000C864F5 /* 下载.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A80D2E19A882C000C864F5 /* 下载.png */; };
+		85A80D3219A882C000C864F5 /* 下一曲.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A80D2F19A882C000C864F5 /* 下一曲.png */; };
+		85B1BB8919AB1C84002A31C4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B1BB8819AB1C84002A31C4 /* pause.png */; };
+		A2DA2F9A19A9970200C48A75 /* AFAudioRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */; };
+		A2DA2F9B19A9970200C48A75 /* AFSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9919A9970200C48A75 /* AFSoundManager.m */; };
+		A2DA2F9E19AA35AC00C48A75 /* DRProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */; };
+		CAE522CAC9E741CB8D038108 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398AB6D30EE4531BB13BAE5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85362C4519A71DC6002CFE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85362C1419A71DC6002CFE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85362C1B19A71DC6002CFE90;
+			remoteInfo = DoubanRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272D52711F9B4EBE862BC5BE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		3398AB6D30EE4531BB13BAE5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85362C1C19A71DC6002CFE90 /* DoubanRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85362C1F19A71DC6002CFE90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85362C2119A71DC6002CFE90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85362C2319A71DC6002CFE90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85362C2719A71DC6002CFE90 /* DoubanRadio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanRadio-Info.plist"; sourceTree = "<group>"; };
+		85362C2919A71DC6002CFE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85362C2B19A71DC6002CFE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85362C2D19A71DC6002CFE90 /* DoubanRadio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubanRadio-Prefix.pch"; sourceTree = "<group>"; };
+		85362C2E19A71DC6002CFE90 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		85362C3219A71DC6002CFE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		85362C3519A71DC6002CFE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		85362C3A19A71DC6002CFE90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85362C4019A71DC6002CFE90 /* DoubanRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85362C4119A71DC6002CFE90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85362C4919A71DC6002CFE90 /* DoubanRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanRadioTests-Info.plist"; sourceTree = "<group>"; };
+		85362C4B19A71DC6002CFE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85362C4D19A71DC6002CFE90 /* DoubanRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanRadioTests.m; sourceTree = "<group>"; };
+		85362C5A19A71E11002CFE90 /* DRRadioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRadioManager.h; sourceTree = "<group>"; };
+		85362C5B19A71E11002CFE90 /* DRRadioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRadioManager.m; sourceTree = "<group>"; };
+		85362C5E19A71E39002CFE90 /* DRMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMusic.h; sourceTree = "<group>"; };
+		85362C5F19A71E39002CFE90 /* DRMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMusic.m; sourceTree = "<group>"; };
+		85362C6119A71E54002CFE90 /* DRChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannel.h; sourceTree = "<group>"; };
+		85362C6219A71E54002CFE90 /* DRChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannel.m; sourceTree = "<group>"; };
+		85362C6419A71FE5002CFE90 /* DRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		85362C6519A71FE5002CFE90 /* DRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		8549077B19A73617008FA9D6 /* DRChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelCell.h; sourceTree = "<group>"; };
+		8549077C19A73617008FA9D6 /* DRChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelCell.m; sourceTree = "<group>"; };
+		8549077D19A73617008FA9D6 /* DRChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRChannelCell.xib; sourceTree = "<group>"; };
+		8549078219A758D0008FA9D6 /* UITableView+Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Wave.h"; sourceTree = "<group>"; };
+		8549078319A758D0008FA9D6 /* UITableView+Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Wave.m"; sourceTree = "<group>"; };
+		85A240F719AEC2F700498A13 /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		85A240F819AEC2F700498A13 /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
+		85A2F49F19AD8484008188CA /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
+		85A2F4A019AD8484008188CA /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
+		85A2F4A219AD8536008188CA /* DRChannelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelListViewController.h; sourceTree = "<group>"; };
+		85A2F4A319AD8536008188CA /* DRChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelListViewController.m; sourceTree = "<group>"; };
+		85A2F4A519ADAEFF008188CA /* ADTickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerLabel.h; sourceTree = "<group>"; };
+		85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerLabel.m; sourceTree = "<group>"; };
+		85A80D2E19A882C000C864F5 /* 下载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载.png"; sourceTree = "<group>"; };
+		85A80D2F19A882C000C864F5 /* 下一曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一曲.png"; sourceTree = "<group>"; };
+		85B1BB8819AB1C84002A31C4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		A2DA2F9619A9970200C48A75 /* AFAudioRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAudioRouter.h; sourceTree = "<group>"; };
+		A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAudioRouter.m; sourceTree = "<group>"; };
+		A2DA2F9819A9970200C48A75 /* AFSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundManager.h; sourceTree = "<group>"; };
+		A2DA2F9919A9970200C48A75 /* AFSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundManager.m; sourceTree = "<group>"; };
+		A2DA2F9C19AA35AC00C48A75 /* DRProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRProgressButton.h; sourceTree = "<group>"; };
+		A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRProgressButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85362C1919A71DC6002CFE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85362C2219A71DC6002CFE90 /* CoreGraphics.framework in Frameworks */,
+				85362C2419A71DC6002CFE90 /* UIKit.framework in Frameworks */,
+				85362C2019A71DC6002CFE90 /* Foundation.framework in Frameworks */,
+				CAE522CAC9E741CB8D038108 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85362C3D19A71DC6002CFE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85362C4219A71DC6002CFE90 /* XCTest.framework in Frameworks */,
+				85362C4419A71DC6002CFE90 /* UIKit.framework in Frameworks */,
+				85362C4319A71DC6002CFE90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85362C1319A71DC6002CFE90 = {
+			isa = PBXGroup;
+			children = (
+				85362C2519A71DC6002CFE90 /* DoubanRadio */,
+				85362C4719A71DC6002CFE90 /* DoubanRadioTests */,
+				85362C1E19A71DC6002CFE90 /* Frameworks */,
+				85362C1D19A71DC6002CFE90 /* Products */,
+				272D52711F9B4EBE862BC5BE /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		85362C1D19A71DC6002CFE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85362C1C19A71DC6002CFE90 /* DoubanRadio.app */,
+				85362C4019A71DC6002CFE90 /* DoubanRadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85362C1E19A71DC6002CFE90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85362C1F19A71DC6002CFE90 /* Foundation.framework */,
+				85362C2119A71DC6002CFE90 /* CoreGraphics.framework */,
+				85362C2319A71DC6002CFE90 /* UIKit.framework */,
+				85362C4119A71DC6002CFE90 /* XCTest.framework */,
+				3398AB6D30EE4531BB13BAE5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85362C2519A71DC6002CFE90 /* DoubanRadio */ = {
+			isa = PBXGroup;
+			children = (
+				85362C6719A72006002CFE90 /* Controller */,
+				85362C5719A71DCE002CFE90 /* View */,
+				85362C5D19A71E1F002CFE90 /* Model */,
+				85362C5819A71DD6002CFE90 /* Util */,
+				85362C3A19A71DC6002CFE90 /* Images.xcassets */,
+				8549078119A758C1008FA9D6 /* Category */,
+				85362C2619A71DC6002CFE90 /* Supporting Files */,
+			);
+			path = DoubanRadio;
+			sourceTree = "<group>";
+		};
+		85362C2619A71DC6002CFE90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A2F49F19AD8484008188CA /* YRSideViewController.h */,
+				85A2F4A019AD8484008188CA /* YRSideViewController.m */,
+				85A2F4A519ADAEFF008188CA /* ADTickerLabel.h */,
+				85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */,
+				85A240F719AEC2F700498A13 /* PaperButton.h */,
+				85A240F819AEC2F700498A13 /* PaperButton.m */,
+				85B1BB8819AB1C84002A31C4 /* pause.png */,
+				85A80D2E19A882C000C864F5 /* 下载.png */,
+				85A80D2F19A882C000C864F5 /* 下一曲.png */,
+				85362C2719A71DC6002CFE90 /* DoubanRadio-Info.plist */,
+				85362C2819A71DC6002CFE90 /* InfoPlist.strings */,
+				85362C2B19A71DC6002CFE90 /* main.m */,
+				85362C2D19A71DC6002CFE90 /* DoubanRadio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85362C4719A71DC6002CFE90 /* DoubanRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				85362C4D19A71DC6002CFE90 /* DoubanRadioTests.m */,
+				85362C4819A71DC6002CFE90 /* Supporting Files */,
+			);
+			path = DoubanRadioTests;
+			sourceTree = "<group>";
+		};
+		85362C4819A71DC6002CFE90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85362C4919A71DC6002CFE90 /* DoubanRadioTests-Info.plist */,
+				85362C4A19A71DC6002CFE90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85362C5719A71DCE002CFE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		85362C5819A71DD6002CFE90 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				85362C5A19A71E11002CFE90 /* DRRadioManager.h */,
+				85362C5B19A71E11002CFE90 /* DRRadioManager.m */,
+				A2DA2F9619A9970200C48A75 /* AFAudioRouter.h */,
+				A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */,
+				A2DA2F9819A9970200C48A75 /* AFSoundManager.h */,
+				A2DA2F9919A9970200C48A75 /* AFSoundManager.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		85362C5D19A71E1F002CFE90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85362C6119A71E54002CFE90 /* DRChannel.h */,
+				85362C6219A71E54002CFE90 /* DRChannel.m */,
+				85362C5E19A71E39002CFE90 /* DRMusic.h */,
+				85362C5F19A71E39002CFE90 /* DRMusic.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		85362C6719A72006002CFE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85362C2E19A71DC6002CFE90 /* DRAppDelegate.h */,
+				85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */,
+				85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */,
+				85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */,
+				85362C6419A71FE5002CFE90 /* DRViewController.h */,
+				85362C6519A71FE5002CFE90 /* DRViewController.m */,
+				A2DA2F9C19AA35AC00C48A75 /* DRProgressButton.h */,
+				A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */,
+				8549077B19A73617008FA9D6 /* DRChannelCell.h */,
+				8549077C19A73617008FA9D6 /* DRChannelCell.m */,
+				8549077D19A73617008FA9D6 /* DRChannelCell.xib */,
+				85A2F4A219AD8536008188CA /* DRChannelListViewController.h */,
+				85A2F4A319AD8536008188CA /* DRChannelListViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8549078119A758C1008FA9D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8549078219A758D0008FA9D6 /* UITableView+Wave.h */,
+				8549078319A758D0008FA9D6 /* UITableView+Wave.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85362C1B19A71DC6002CFE90 /* DoubanRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85362C5119A71DC6002CFE90 /* Build configuration list for PBXNativeTarget "DoubanRadio" */;
+			buildPhases = (
+				5D38F42F0F5F469A8A2C5F4E /* Check Pods Manifest.lock */,
+				85362C1819A71DC6002CFE90 /* Sources */,
+				85362C1919A71DC6002CFE90 /* Frameworks */,
+				85362C1A19A71DC6002CFE90 /* Resources */,
+				8D2882CDD4BF45B9AA22B478 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanRadio;
+			productName = DoubanRadio;
+			productReference = 85362C1C19A71DC6002CFE90 /* DoubanRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85362C3F19A71DC6002CFE90 /* DoubanRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85362C5419A71DC6002CFE90 /* Build configuration list for PBXNativeTarget "DoubanRadioTests" */;
+			buildPhases = (
+				85362C3C19A71DC6002CFE90 /* Sources */,
+				85362C3D19A71DC6002CFE90 /* Frameworks */,
+				85362C3E19A71DC6002CFE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85362C4619A71DC6002CFE90 /* PBXTargetDependency */,
+			);
+			name = DoubanRadioTests;
+			productName = DoubanRadioTests;
+			productReference = 85362C4019A71DC6002CFE90 /* DoubanRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85362C1419A71DC6002CFE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RussellY;
+				TargetAttributes = {
+					85362C3F19A71DC6002CFE90 = {
+						TestTargetID = 85362C1B19A71DC6002CFE90;
+					};
+				};
+			};
+			buildConfigurationList = 85362C1719A71DC6002CFE90 /* Build configuration list for PBXProject "DoubanRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85362C1319A71DC6002CFE90;
+			productRefGroup = 85362C1D19A71DC6002CFE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85362C1B19A71DC6002CFE90 /* DoubanRadio */,
+				85362C3F19A71DC6002CFE90 /* DoubanRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85362C1A19A71DC6002CFE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8549077F19A73617008FA9D6 /* DRChannelCell.xib in Resources */,
+				85362C3619A71DC6002CFE90 /* Main_iPad.storyboard in Resources */,
+				85362C3B19A71DC6002CFE90 /* Images.xcassets in Resources */,
+				85362C3319A71DC6002CFE90 /* Main_iPhone.storyboard in Resources */,
+				85A80D3219A882C000C864F5 /* 下一曲.png in Resources */,
+				85362C2A19A71DC6002CFE90 /* InfoPlist.strings in Resources */,
+				85A80D3119A882C000C864F5 /* 下载.png in Resources */,
+				85B1BB8919AB1C84002A31C4 /* pause.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85362C3E19A71DC6002CFE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85362C4C19A71DC6002CFE90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D38F42F0F5F469A8A2C5F4E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2882CDD4BF45B9AA22B478 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85362C1819A71DC6002CFE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85362C3019A71DC6002CFE90 /* DRAppDelegate.m in Sources */,
+				85362C2C19A71DC6002CFE90 /* main.m in Sources */,
+				85362C5C19A71E11002CFE90 /* DRRadioManager.m in Sources */,
+				A2DA2F9A19A9970200C48A75 /* AFAudioRouter.m in Sources */,
+				85362C6019A71E39002CFE90 /* DRMusic.m in Sources */,
+				85A2F4A719ADAEFF008188CA /* ADTickerLabel.m in Sources */,
+				8549078419A758D0008FA9D6 /* UITableView+Wave.m in Sources */,
+				85A2F4A419AD8536008188CA /* DRChannelListViewController.m in Sources */,
+				8549077E19A73617008FA9D6 /* DRChannelCell.m in Sources */,
+				A2DA2F9E19AA35AC00C48A75 /* DRProgressButton.m in Sources */,
+				85A2F4A119AD8484008188CA /* YRSideViewController.m in Sources */,
+				85362C6619A71FE5002CFE90 /* DRViewController.m in Sources */,
+				A2DA2F9B19A9970200C48A75 /* AFSoundManager.m in Sources */,
+				85362C6319A71E54002CFE90 /* DRChannel.m in Sources */,
+				85A240F919AEC2F700498A13 /* PaperButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85362C3C19A71DC6002CFE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85362C4E19A71DC6002CFE90 /* DoubanRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85362C4619A71DC6002CFE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85362C1B19A71DC6002CFE90 /* DoubanRadio */;
+			targetProxy = 85362C4519A71DC6002CFE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85362C2819A71DC6002CFE90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85362C2919A71DC6002CFE90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85362C3219A71DC6002CFE90 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85362C3519A71DC6002CFE90 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		85362C4A19A71DC6002CFE90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85362C4B19A71DC6002CFE90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85362C4F19A71DC6002CFE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85362C5019A71DC6002CFE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85362C5219A71DC6002CFE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272D52711F9B4EBE862BC5BE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
+				INFOPLIST_FILE = "DoubanRadio/DoubanRadio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85362C5319A71DC6002CFE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272D52711F9B4EBE862BC5BE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
+				INFOPLIST_FILE = "DoubanRadio/DoubanRadio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		85362C5519A71DC6002CFE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubanRadio.app/DoubanRadio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoubanRadioTests/DoubanRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		85362C5619A71DC6002CFE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubanRadio.app/DoubanRadio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
+				INFOPLIST_FILE = "DoubanRadioTests/DoubanRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85362C1719A71DC6002CFE90 /* Build configuration list for PBXProject "DoubanRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85362C4F19A71DC6002CFE90 /* Debug */,
+				85362C5019A71DC6002CFE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85362C5119A71DC6002CFE90 /* Build configuration list for PBXNativeTarget "DoubanRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85362C5219A71DC6002CFE90 /* Debug */,
+				85362C5319A71DC6002CFE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85362C5419A71DC6002CFE90 /* Build configuration list for PBXNativeTarget "DoubanRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85362C5519A71DC6002CFE90 /* Debug */,
+				85362C5619A71DC6002CFE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85362C1419A71DC6002CFE90 /* Project object */;
+}
