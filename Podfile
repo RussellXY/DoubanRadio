@@ -1,3 +1,4 @@
-pod 'pop','~>1.0'
+inhibit_all_warnings!
+pod 'pop'
 pod 'LBBlurredImage'
-pod 'AFNetworking','~>2.0'
+pod 'AFNetworking'
