@@ -7,37 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46156A091BD7E0FA0082BBDA /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569D11BD7E0FA0082BBDA /* DRAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0A1BD7E0FA0082BBDA /* DRChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569D41BD7E0FA0082BBDA /* DRChannelListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0B1BD7E0FA0082BBDA /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569D61BD7E0FA0082BBDA /* DRViewController.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0C1BD7E0FA0082BBDA /* DRRadioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569D91BD7E0FA0082BBDA /* DRRadioManager.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0D1BD7E0FA0082BBDA /* DRChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569DC1BD7E0FA0082BBDA /* DRChannel.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0E1BD7E0FA0082BBDA /* DRMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569DE1BD7E0FA0082BBDA /* DRMusic.m */; settings = {ASSET_TAGS = (); }; };
+		46156A0F1BD7E0FA0082BBDA /* DRChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569E31BD7E0FA0082BBDA /* DRChannelCell.m */; settings = {ASSET_TAGS = (); }; };
+		46156A101BD7E0FA0082BBDA /* DRChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461569E41BD7E0FA0082BBDA /* DRChannelCell.xib */; settings = {ASSET_TAGS = (); }; };
+		46156A111BD7E0FA0082BBDA /* DRProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569E71BD7E0FA0082BBDA /* DRProgressButton.m */; settings = {ASSET_TAGS = (); }; };
+		46156A121BD7E0FA0082BBDA /* ADTickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569EB1BD7E0FA0082BBDA /* ADTickerLabel.m */; settings = {ASSET_TAGS = (); }; };
+		46156A131BD7E0FA0082BBDA /* AFAudioRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569EE1BD7E0FA0082BBDA /* AFAudioRouter.m */; settings = {ASSET_TAGS = (); }; };
+		46156A141BD7E0FA0082BBDA /* AFSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569F01BD7E0FA0082BBDA /* AFSoundManager.m */; settings = {ASSET_TAGS = (); }; };
+		46156A151BD7E0FA0082BBDA /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569F31BD7E0FA0082BBDA /* PaperButton.m */; settings = {ASSET_TAGS = (); }; };
+		46156A161BD7E0FA0082BBDA /* UITableView+Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569F61BD7E0FA0082BBDA /* UITableView+Wave.m */; settings = {ASSET_TAGS = (); }; };
+		46156A171BD7E0FA0082BBDA /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461569F91BD7E0FA0082BBDA /* YRSideViewController.m */; settings = {ASSET_TAGS = (); }; };
+		46156A181BD7E0FA0082BBDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461569FB1BD7E0FA0082BBDA /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		46156A191BD7E0FA0082BBDA /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 461569FC1BD7E0FA0082BBDA /* pause.png */; settings = {ASSET_TAGS = (); }; };
+		46156A1A1BD7E0FA0082BBDA /* 下一曲.png in Resources */ = {isa = PBXBuildFile; fileRef = 461569FD1BD7E0FA0082BBDA /* 下一曲.png */; settings = {ASSET_TAGS = (); }; };
+		46156A1B1BD7E0FA0082BBDA /* 下载.png in Resources */ = {isa = PBXBuildFile; fileRef = 461569FE1BD7E0FA0082BBDA /* 下载.png */; settings = {ASSET_TAGS = (); }; };
+		46156A1C1BD7E0FA0082BBDA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46156A001BD7E0FA0082BBDA /* Main_iPad.storyboard */; settings = {ASSET_TAGS = (); }; };
+		46156A1D1BD7E0FA0082BBDA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46156A021BD7E0FA0082BBDA /* Main_iPhone.storyboard */; settings = {ASSET_TAGS = (); }; };
+		46156A1E1BD7E0FA0082BBDA /* DoubanRadio-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46156A041BD7E0FA0082BBDA /* DoubanRadio-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		46156A1F1BD7E0FA0082BBDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46156A061BD7E0FA0082BBDA /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		46156A201BD7E0FA0082BBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46156A081BD7E0FA0082BBDA /* main.m */; settings = {ASSET_TAGS = (); }; };
 		85362C2019A71DC6002CFE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C1F19A71DC6002CFE90 /* Foundation.framework */; };
 		85362C2219A71DC6002CFE90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2119A71DC6002CFE90 /* CoreGraphics.framework */; };
 		85362C2419A71DC6002CFE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2319A71DC6002CFE90 /* UIKit.framework */; };
-		85362C2A19A71DC6002CFE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85362C2819A71DC6002CFE90 /* InfoPlist.strings */; };
-		85362C2C19A71DC6002CFE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C2B19A71DC6002CFE90 /* main.m */; };
-		85362C3019A71DC6002CFE90 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */; };
-		85362C3319A71DC6002CFE90 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */; };
-		85362C3619A71DC6002CFE90 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */; };
-		85362C3B19A71DC6002CFE90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85362C3A19A71DC6002CFE90 /* Images.xcassets */; };
 		85362C4219A71DC6002CFE90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C4119A71DC6002CFE90 /* XCTest.framework */; };
 		85362C4319A71DC6002CFE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C1F19A71DC6002CFE90 /* Foundation.framework */; };
 		85362C4419A71DC6002CFE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85362C2319A71DC6002CFE90 /* UIKit.framework */; };
 		85362C4C19A71DC6002CFE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85362C4A19A71DC6002CFE90 /* InfoPlist.strings */; };
 		85362C4E19A71DC6002CFE90 /* DoubanRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C4D19A71DC6002CFE90 /* DoubanRadioTests.m */; };
-		85362C5C19A71E11002CFE90 /* DRRadioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C5B19A71E11002CFE90 /* DRRadioManager.m */; };
-		85362C6019A71E39002CFE90 /* DRMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C5F19A71E39002CFE90 /* DRMusic.m */; };
-		85362C6319A71E54002CFE90 /* DRChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C6219A71E54002CFE90 /* DRChannel.m */; };
-		85362C6619A71FE5002CFE90 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85362C6519A71FE5002CFE90 /* DRViewController.m */; };
-		8549077E19A73617008FA9D6 /* DRChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549077C19A73617008FA9D6 /* DRChannelCell.m */; };
-		8549077F19A73617008FA9D6 /* DRChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8549077D19A73617008FA9D6 /* DRChannelCell.xib */; };
-		8549078419A758D0008FA9D6 /* UITableView+Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549078319A758D0008FA9D6 /* UITableView+Wave.m */; };
-		85A240F919AEC2F700498A13 /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A240F819AEC2F700498A13 /* PaperButton.m */; };
-		85A2F4A119AD8484008188CA /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A019AD8484008188CA /* YRSideViewController.m */; };
-		85A2F4A419AD8536008188CA /* DRChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A319AD8536008188CA /* DRChannelListViewController.m */; };
-		85A2F4A719ADAEFF008188CA /* ADTickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */; };
-		85A80D3119A882C000C864F5 /* 下载.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A80D2E19A882C000C864F5 /* 下载.png */; };
-		85A80D3219A882C000C864F5 /* 下一曲.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A80D2F19A882C000C864F5 /* 下一曲.png */; };
-		85B1BB8919AB1C84002A31C4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B1BB8819AB1C84002A31C4 /* pause.png */; };
-		A2DA2F9A19A9970200C48A75 /* AFAudioRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */; };
-		A2DA2F9B19A9970200C48A75 /* AFSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9919A9970200C48A75 /* AFSoundManager.m */; };
-		A2DA2F9E19AA35AC00C48A75 /* DRProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */; };
 		CAE522CAC9E741CB8D038108 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398AB6D30EE4531BB13BAE5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,55 +55,55 @@
 /* Begin PBXFileReference section */
 		1F94A4EE68113AB9A448A7A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3398AB6D30EE4531BB13BAE5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		461569D01BD7E0FA0082BBDA /* DRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		461569D11BD7E0FA0082BBDA /* DRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		461569D31BD7E0FA0082BBDA /* DRChannelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelListViewController.h; sourceTree = "<group>"; };
+		461569D41BD7E0FA0082BBDA /* DRChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelListViewController.m; sourceTree = "<group>"; };
+		461569D51BD7E0FA0082BBDA /* DRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		461569D61BD7E0FA0082BBDA /* DRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		461569D81BD7E0FA0082BBDA /* DRRadioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRadioManager.h; sourceTree = "<group>"; };
+		461569D91BD7E0FA0082BBDA /* DRRadioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRadioManager.m; sourceTree = "<group>"; };
+		461569DB1BD7E0FA0082BBDA /* DRChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannel.h; sourceTree = "<group>"; };
+		461569DC1BD7E0FA0082BBDA /* DRChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannel.m; sourceTree = "<group>"; };
+		461569DD1BD7E0FA0082BBDA /* DRMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMusic.h; sourceTree = "<group>"; };
+		461569DE1BD7E0FA0082BBDA /* DRMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMusic.m; sourceTree = "<group>"; };
+		461569E21BD7E0FA0082BBDA /* DRChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelCell.h; sourceTree = "<group>"; };
+		461569E31BD7E0FA0082BBDA /* DRChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelCell.m; sourceTree = "<group>"; };
+		461569E41BD7E0FA0082BBDA /* DRChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRChannelCell.xib; sourceTree = "<group>"; };
+		461569E61BD7E0FA0082BBDA /* DRProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRProgressButton.h; sourceTree = "<group>"; };
+		461569E71BD7E0FA0082BBDA /* DRProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRProgressButton.m; sourceTree = "<group>"; };
+		461569EA1BD7E0FA0082BBDA /* ADTickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerLabel.h; sourceTree = "<group>"; };
+		461569EB1BD7E0FA0082BBDA /* ADTickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerLabel.m; sourceTree = "<group>"; };
+		461569ED1BD7E0FA0082BBDA /* AFAudioRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAudioRouter.h; sourceTree = "<group>"; };
+		461569EE1BD7E0FA0082BBDA /* AFAudioRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAudioRouter.m; sourceTree = "<group>"; };
+		461569EF1BD7E0FA0082BBDA /* AFSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundManager.h; sourceTree = "<group>"; };
+		461569F01BD7E0FA0082BBDA /* AFSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundManager.m; sourceTree = "<group>"; };
+		461569F21BD7E0FA0082BBDA /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		461569F31BD7E0FA0082BBDA /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
+		461569F51BD7E0FA0082BBDA /* UITableView+Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Wave.h"; sourceTree = "<group>"; };
+		461569F61BD7E0FA0082BBDA /* UITableView+Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Wave.m"; sourceTree = "<group>"; };
+		461569F81BD7E0FA0082BBDA /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
+		461569F91BD7E0FA0082BBDA /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
+		461569FB1BD7E0FA0082BBDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		461569FC1BD7E0FA0082BBDA /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		461569FD1BD7E0FA0082BBDA /* 下一曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一曲.png"; sourceTree = "<group>"; };
+		461569FE1BD7E0FA0082BBDA /* 下载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载.png"; sourceTree = "<group>"; };
+		46156A011BD7E0FA0082BBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		46156A031BD7E0FA0082BBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		46156A041BD7E0FA0082BBDA /* DoubanRadio-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DoubanRadio-Info.plist"; sourceTree = "<group>"; };
+		46156A051BD7E0FA0082BBDA /* DoubanRadio-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DoubanRadio-Prefix.pch"; sourceTree = "<group>"; };
+		46156A071BD7E0FA0082BBDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46156A081BD7E0FA0082BBDA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85362C1C19A71DC6002CFE90 /* DoubanRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85362C1F19A71DC6002CFE90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		85362C2119A71DC6002CFE90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		85362C2319A71DC6002CFE90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		85362C2719A71DC6002CFE90 /* DoubanRadio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanRadio-Info.plist"; sourceTree = "<group>"; };
-		85362C2919A71DC6002CFE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		85362C2B19A71DC6002CFE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		85362C2D19A71DC6002CFE90 /* DoubanRadio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubanRadio-Prefix.pch"; sourceTree = "<group>"; };
-		85362C2E19A71DC6002CFE90 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
-		85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
-		85362C3219A71DC6002CFE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		85362C3519A71DC6002CFE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		85362C3A19A71DC6002CFE90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		85362C4019A71DC6002CFE90 /* DoubanRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85362C4119A71DC6002CFE90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		85362C4919A71DC6002CFE90 /* DoubanRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanRadioTests-Info.plist"; sourceTree = "<group>"; };
 		85362C4B19A71DC6002CFE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85362C4D19A71DC6002CFE90 /* DoubanRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanRadioTests.m; sourceTree = "<group>"; };
-		85362C5A19A71E11002CFE90 /* DRRadioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRadioManager.h; sourceTree = "<group>"; };
-		85362C5B19A71E11002CFE90 /* DRRadioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRadioManager.m; sourceTree = "<group>"; };
-		85362C5E19A71E39002CFE90 /* DRMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMusic.h; sourceTree = "<group>"; };
-		85362C5F19A71E39002CFE90 /* DRMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMusic.m; sourceTree = "<group>"; };
-		85362C6119A71E54002CFE90 /* DRChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannel.h; sourceTree = "<group>"; };
-		85362C6219A71E54002CFE90 /* DRChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannel.m; sourceTree = "<group>"; };
-		85362C6419A71FE5002CFE90 /* DRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
-		85362C6519A71FE5002CFE90 /* DRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
-		8549077B19A73617008FA9D6 /* DRChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelCell.h; sourceTree = "<group>"; };
-		8549077C19A73617008FA9D6 /* DRChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelCell.m; sourceTree = "<group>"; };
-		8549077D19A73617008FA9D6 /* DRChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRChannelCell.xib; sourceTree = "<group>"; };
-		8549078219A758D0008FA9D6 /* UITableView+Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Wave.h"; sourceTree = "<group>"; };
-		8549078319A758D0008FA9D6 /* UITableView+Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Wave.m"; sourceTree = "<group>"; };
-		85A240F719AEC2F700498A13 /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
-		85A240F819AEC2F700498A13 /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
-		85A2F49F19AD8484008188CA /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
-		85A2F4A019AD8484008188CA /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
-		85A2F4A219AD8536008188CA /* DRChannelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRChannelListViewController.h; sourceTree = "<group>"; };
-		85A2F4A319AD8536008188CA /* DRChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRChannelListViewController.m; sourceTree = "<group>"; };
-		85A2F4A519ADAEFF008188CA /* ADTickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerLabel.h; sourceTree = "<group>"; };
-		85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerLabel.m; sourceTree = "<group>"; };
-		85A80D2E19A882C000C864F5 /* 下载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载.png"; sourceTree = "<group>"; };
-		85A80D2F19A882C000C864F5 /* 下一曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一曲.png"; sourceTree = "<group>"; };
-		85B1BB8819AB1C84002A31C4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		A2BAF253D255425BA20331F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A2DA2F9619A9970200C48A75 /* AFAudioRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAudioRouter.h; sourceTree = "<group>"; };
-		A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAudioRouter.m; sourceTree = "<group>"; };
-		A2DA2F9819A9970200C48A75 /* AFSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundManager.h; sourceTree = "<group>"; };
-		A2DA2F9919A9970200C48A75 /* AFSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundManager.m; sourceTree = "<group>"; };
-		A2DA2F9C19AA35AC00C48A75 /* DRProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRProgressButton.h; sourceTree = "<group>"; };
-		A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRProgressButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461569CE1BD7E0FA0082BBDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				461569CF1BD7E0FA0082BBDA /* Application */,
+				461569D21BD7E0FA0082BBDA /* Controllers */,
+				461569D71BD7E0FA0082BBDA /* Manager */,
+				461569DA1BD7E0FA0082BBDA /* Model */,
+				461569DF1BD7E0FA0082BBDA /* Support */,
+				461569E01BD7E0FA0082BBDA /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		461569CF1BD7E0FA0082BBDA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				461569D01BD7E0FA0082BBDA /* DRAppDelegate.h */,
+				461569D11BD7E0FA0082BBDA /* DRAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		461569D21BD7E0FA0082BBDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				461569D31BD7E0FA0082BBDA /* DRChannelListViewController.h */,
+				461569D41BD7E0FA0082BBDA /* DRChannelListViewController.m */,
+				461569D51BD7E0FA0082BBDA /* DRViewController.h */,
+				461569D61BD7E0FA0082BBDA /* DRViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		461569D71BD7E0FA0082BBDA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				461569D81BD7E0FA0082BBDA /* DRRadioManager.h */,
+				461569D91BD7E0FA0082BBDA /* DRRadioManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		461569DA1BD7E0FA0082BBDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				461569DB1BD7E0FA0082BBDA /* DRChannel.h */,
+				461569DC1BD7E0FA0082BBDA /* DRChannel.m */,
+				461569DD1BD7E0FA0082BBDA /* DRMusic.h */,
+				461569DE1BD7E0FA0082BBDA /* DRMusic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		461569DF1BD7E0FA0082BBDA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		461569E01BD7E0FA0082BBDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				461569E11BD7E0FA0082BBDA /* CustomCell */,
+				461569E51BD7E0FA0082BBDA /* CustomView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		461569E11BD7E0FA0082BBDA /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				461569E21BD7E0FA0082BBDA /* DRChannelCell.h */,
+				461569E31BD7E0FA0082BBDA /* DRChannelCell.m */,
+				461569E41BD7E0FA0082BBDA /* DRChannelCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		461569E51BD7E0FA0082BBDA /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				461569E61BD7E0FA0082BBDA /* DRProgressButton.h */,
+				461569E71BD7E0FA0082BBDA /* DRProgressButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		461569E81BD7E0FA0082BBDA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				461569E91BD7E0FA0082BBDA /* ADTickerLabel */,
+				461569EC1BD7E0FA0082BBDA /* AFSoundManager */,
+				461569F11BD7E0FA0082BBDA /* PaperButton */,
+				461569F41BD7E0FA0082BBDA /* UITableView+Wave */,
+				461569F71BD7E0FA0082BBDA /* YRSideViewController */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		461569E91BD7E0FA0082BBDA /* ADTickerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				461569EA1BD7E0FA0082BBDA /* ADTickerLabel.h */,
+				461569EB1BD7E0FA0082BBDA /* ADTickerLabel.m */,
+			);
+			path = ADTickerLabel;
+			sourceTree = "<group>";
+		};
+		461569EC1BD7E0FA0082BBDA /* AFSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				461569ED1BD7E0FA0082BBDA /* AFAudioRouter.h */,
+				461569EE1BD7E0FA0082BBDA /* AFAudioRouter.m */,
+				461569EF1BD7E0FA0082BBDA /* AFSoundManager.h */,
+				461569F01BD7E0FA0082BBDA /* AFSoundManager.m */,
+			);
+			path = AFSoundManager;
+			sourceTree = "<group>";
+		};
+		461569F11BD7E0FA0082BBDA /* PaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				461569F21BD7E0FA0082BBDA /* PaperButton.h */,
+				461569F31BD7E0FA0082BBDA /* PaperButton.m */,
+			);
+			path = PaperButton;
+			sourceTree = "<group>";
+		};
+		461569F41BD7E0FA0082BBDA /* UITableView+Wave */ = {
+			isa = PBXGroup;
+			children = (
+				461569F51BD7E0FA0082BBDA /* UITableView+Wave.h */,
+				461569F61BD7E0FA0082BBDA /* UITableView+Wave.m */,
+			);
+			path = "UITableView+Wave";
+			sourceTree = "<group>";
+		};
+		461569F71BD7E0FA0082BBDA /* YRSideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				461569F81BD7E0FA0082BBDA /* YRSideViewController.h */,
+				461569F91BD7E0FA0082BBDA /* YRSideViewController.m */,
+			);
+			path = YRSideViewController;
+			sourceTree = "<group>";
+		};
+		461569FA1BD7E0FA0082BBDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				461569FB1BD7E0FA0082BBDA /* Images.xcassets */,
+				461569FC1BD7E0FA0082BBDA /* pause.png */,
+				461569FD1BD7E0FA0082BBDA /* 下一曲.png */,
+				461569FE1BD7E0FA0082BBDA /* 下载.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		461569FF1BD7E0FA0082BBDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46156A001BD7E0FA0082BBDA /* Main_iPad.storyboard */,
+				46156A021BD7E0FA0082BBDA /* Main_iPhone.storyboard */,
+				46156A041BD7E0FA0082BBDA /* DoubanRadio-Info.plist */,
+				46156A051BD7E0FA0082BBDA /* DoubanRadio-Prefix.pch */,
+				46156A061BD7E0FA0082BBDA /* InfoPlist.strings */,
+				46156A081BD7E0FA0082BBDA /* main.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		85362C1319A71DC6002CFE90 = {
 			isa = PBXGroup;
 			children = (
@@ -165,35 +337,12 @@
 		85362C2519A71DC6002CFE90 /* DoubanRadio */ = {
 			isa = PBXGroup;
 			children = (
-				85362C6719A72006002CFE90 /* Controller */,
-				85362C5719A71DCE002CFE90 /* View */,
-				85362C5D19A71E1F002CFE90 /* Model */,
-				85362C5819A71DD6002CFE90 /* Util */,
-				85362C3A19A71DC6002CFE90 /* Images.xcassets */,
-				8549078119A758C1008FA9D6 /* Category */,
-				85362C2619A71DC6002CFE90 /* Supporting Files */,
+				461569CE1BD7E0FA0082BBDA /* Classes */,
+				461569E81BD7E0FA0082BBDA /* Libraries */,
+				461569FA1BD7E0FA0082BBDA /* Resources */,
+				461569FF1BD7E0FA0082BBDA /* Support Files */,
 			);
 			path = DoubanRadio;
-			sourceTree = "<group>";
-		};
-		85362C2619A71DC6002CFE90 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				85A2F49F19AD8484008188CA /* YRSideViewController.h */,
-				85A2F4A019AD8484008188CA /* YRSideViewController.m */,
-				85A2F4A519ADAEFF008188CA /* ADTickerLabel.h */,
-				85A2F4A619ADAEFF008188CA /* ADTickerLabel.m */,
-				85A240F719AEC2F700498A13 /* PaperButton.h */,
-				85A240F819AEC2F700498A13 /* PaperButton.m */,
-				85B1BB8819AB1C84002A31C4 /* pause.png */,
-				85A80D2E19A882C000C864F5 /* 下载.png */,
-				85A80D2F19A882C000C864F5 /* 下一曲.png */,
-				85362C2719A71DC6002CFE90 /* DoubanRadio-Info.plist */,
-				85362C2819A71DC6002CFE90 /* InfoPlist.strings */,
-				85362C2B19A71DC6002CFE90 /* main.m */,
-				85362C2D19A71DC6002CFE90 /* DoubanRadio-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		85362C4719A71DC6002CFE90 /* DoubanRadioTests */ = {
@@ -212,66 +361,6 @@
 				85362C4A19A71DC6002CFE90 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		85362C5719A71DCE002CFE90 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		85362C5819A71DD6002CFE90 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				85362C5A19A71E11002CFE90 /* DRRadioManager.h */,
-				85362C5B19A71E11002CFE90 /* DRRadioManager.m */,
-				A2DA2F9619A9970200C48A75 /* AFAudioRouter.h */,
-				A2DA2F9719A9970200C48A75 /* AFAudioRouter.m */,
-				A2DA2F9819A9970200C48A75 /* AFSoundManager.h */,
-				A2DA2F9919A9970200C48A75 /* AFSoundManager.m */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		85362C5D19A71E1F002CFE90 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				85362C6119A71E54002CFE90 /* DRChannel.h */,
-				85362C6219A71E54002CFE90 /* DRChannel.m */,
-				85362C5E19A71E39002CFE90 /* DRMusic.h */,
-				85362C5F19A71E39002CFE90 /* DRMusic.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		85362C6719A72006002CFE90 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				85362C2E19A71DC6002CFE90 /* DRAppDelegate.h */,
-				85362C2F19A71DC6002CFE90 /* DRAppDelegate.m */,
-				85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */,
-				85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */,
-				85362C6419A71FE5002CFE90 /* DRViewController.h */,
-				85362C6519A71FE5002CFE90 /* DRViewController.m */,
-				A2DA2F9C19AA35AC00C48A75 /* DRProgressButton.h */,
-				A2DA2F9D19AA35AC00C48A75 /* DRProgressButton.m */,
-				8549077B19A73617008FA9D6 /* DRChannelCell.h */,
-				8549077C19A73617008FA9D6 /* DRChannelCell.m */,
-				8549077D19A73617008FA9D6 /* DRChannelCell.xib */,
-				85A2F4A219AD8536008188CA /* DRChannelListViewController.h */,
-				85A2F4A319AD8536008188CA /* DRChannelListViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		8549078119A758C1008FA9D6 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				8549078219A758D0008FA9D6 /* UITableView+Wave.h */,
-				8549078319A758D0008FA9D6 /* UITableView+Wave.m */,
-			);
-			name = Category;
 			sourceTree = "<group>";
 		};
 		BA3CCDAD729F10AC005727F5 /* Pods */ = {
@@ -363,14 +452,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8549077F19A73617008FA9D6 /* DRChannelCell.xib in Resources */,
-				85362C3619A71DC6002CFE90 /* Main_iPad.storyboard in Resources */,
-				85362C3B19A71DC6002CFE90 /* Images.xcassets in Resources */,
-				85362C3319A71DC6002CFE90 /* Main_iPhone.storyboard in Resources */,
-				85A80D3219A882C000C864F5 /* 下一曲.png in Resources */,
-				85362C2A19A71DC6002CFE90 /* InfoPlist.strings in Resources */,
-				85A80D3119A882C000C864F5 /* 下载.png in Resources */,
-				85B1BB8919AB1C84002A31C4 /* pause.png in Resources */,
+				46156A1B1BD7E0FA0082BBDA /* 下载.png in Resources */,
+				46156A1E1BD7E0FA0082BBDA /* DoubanRadio-Info.plist in Resources */,
+				46156A101BD7E0FA0082BBDA /* DRChannelCell.xib in Resources */,
+				46156A181BD7E0FA0082BBDA /* Images.xcassets in Resources */,
+				46156A1C1BD7E0FA0082BBDA /* Main_iPad.storyboard in Resources */,
+				46156A191BD7E0FA0082BBDA /* pause.png in Resources */,
+				46156A1D1BD7E0FA0082BBDA /* Main_iPhone.storyboard in Resources */,
+				46156A1F1BD7E0FA0082BBDA /* InfoPlist.strings in Resources */,
+				46156A1A1BD7E0FA0082BBDA /* 下一曲.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,21 +527,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85362C3019A71DC6002CFE90 /* DRAppDelegate.m in Sources */,
-				85362C2C19A71DC6002CFE90 /* main.m in Sources */,
-				85362C5C19A71E11002CFE90 /* DRRadioManager.m in Sources */,
-				A2DA2F9A19A9970200C48A75 /* AFAudioRouter.m in Sources */,
-				85362C6019A71E39002CFE90 /* DRMusic.m in Sources */,
-				85A2F4A719ADAEFF008188CA /* ADTickerLabel.m in Sources */,
-				8549078419A758D0008FA9D6 /* UITableView+Wave.m in Sources */,
-				85A2F4A419AD8536008188CA /* DRChannelListViewController.m in Sources */,
-				8549077E19A73617008FA9D6 /* DRChannelCell.m in Sources */,
-				A2DA2F9E19AA35AC00C48A75 /* DRProgressButton.m in Sources */,
-				85A2F4A119AD8484008188CA /* YRSideViewController.m in Sources */,
-				85362C6619A71FE5002CFE90 /* DRViewController.m in Sources */,
-				A2DA2F9B19A9970200C48A75 /* AFSoundManager.m in Sources */,
-				85362C6319A71E54002CFE90 /* DRChannel.m in Sources */,
-				85A240F919AEC2F700498A13 /* PaperButton.m in Sources */,
+				46156A171BD7E0FA0082BBDA /* YRSideViewController.m in Sources */,
+				46156A0A1BD7E0FA0082BBDA /* DRChannelListViewController.m in Sources */,
+				46156A0D1BD7E0FA0082BBDA /* DRChannel.m in Sources */,
+				46156A0B1BD7E0FA0082BBDA /* DRViewController.m in Sources */,
+				46156A0E1BD7E0FA0082BBDA /* DRMusic.m in Sources */,
+				46156A131BD7E0FA0082BBDA /* AFAudioRouter.m in Sources */,
+				46156A121BD7E0FA0082BBDA /* ADTickerLabel.m in Sources */,
+				46156A111BD7E0FA0082BBDA /* DRProgressButton.m in Sources */,
+				46156A161BD7E0FA0082BBDA /* UITableView+Wave.m in Sources */,
+				46156A0F1BD7E0FA0082BBDA /* DRChannelCell.m in Sources */,
+				46156A201BD7E0FA0082BBDA /* main.m in Sources */,
+				46156A151BD7E0FA0082BBDA /* PaperButton.m in Sources */,
+				46156A091BD7E0FA0082BBDA /* DRAppDelegate.m in Sources */,
+				46156A141BD7E0FA0082BBDA /* AFSoundManager.m in Sources */,
+				46156A0C1BD7E0FA0082BBDA /* DRRadioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,28 +564,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85362C2819A71DC6002CFE90 /* InfoPlist.strings */ = {
+		46156A001BD7E0FA0082BBDA /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85362C2919A71DC6002CFE90 /* en */,
+				46156A011BD7E0FA0082BBDA /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		85362C3119A71DC6002CFE90 /* Main_iPhone.storyboard */ = {
+		46156A021BD7E0FA0082BBDA /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85362C3219A71DC6002CFE90 /* Base */,
+				46156A031BD7E0FA0082BBDA /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		85362C3419A71DC6002CFE90 /* Main_iPad.storyboard */ = {
+		46156A061BD7E0FA0082BBDA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85362C3519A71DC6002CFE90 /* Base */,
+				46156A071BD7E0FA0082BBDA /* en */,
 			);
-			name = Main_iPad.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		85362C4A19A71DC6002CFE90 /* InfoPlist.strings */ = {
@@ -588,8 +678,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
-				INFOPLIST_FILE = "DoubanRadio/DoubanRadio-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DoubanRadio/Support Files/DoubanRadio-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DoubanRadio/Support Files/DoubanRadio-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -602,8 +692,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubanRadio/DoubanRadio-Prefix.pch";
-				INFOPLIST_FILE = "DoubanRadio/DoubanRadio-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DoubanRadio/Support Files/DoubanRadio-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DoubanRadio/Support Files/DoubanRadio-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
